@@ -1,0 +1,171 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+
+
+  
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 36px;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    background-color: blue;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: red;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width:30%
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.heading{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links {
+    color: white;
+    text-transform: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 14px 16px;
+}
+.nav-links li a.hover:not(.active){
+    background-color:gray;
+}
+
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    background-color: gray;
+  }
+  
+  h1 { 
+    font-size: 45px;
+    font-weight: bold;
+    color:black;
+  }
+  
+  h2 {
+    font-size: 35px;
+    color:black;
+  }
+  
+  h3 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+ p{
+    color: rgb(205, 23, 23);
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 20px;
+ }
+ label{
+    color: blue;
+ }
+  
+  body {
+    background-color: rgb(106, 97, 97);
+  }
+
+  button {
+    background-color: #4CAF50;
+  }
+
+  
+  /* Button Styles */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: greenyellow;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  label{
+    color: red;
+ }
+  input{
+    color: black;
+    font-size: larger;
+    border: 2px solid;
+}
+  
+  /* Footer Styles */
+  footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
